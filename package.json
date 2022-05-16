@@ -4,6 +4,8 @@
   "description": "GoIt Node.js Module 2",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AndriiVV/goit-node-module2-test/issues"
   },
-  "homepage": "https://github.com/AndriiVV/goit-node-module2-test#readme"
+  "homepage": "https://github.com/AndriiVV/goit-node-module2-test#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
