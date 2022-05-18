@@ -1,12 +1,13 @@
 {
-  "name": "goit-node-module2-test",
+  "name": "appexpress.js",
   "version": "1.0.0",
   "description": "GoIt Node.js Module 2",
-  "main": "index.js",
+  "main": "appExpress.js",
   "scripts": {
     "start": "node app/app.js",
     "dev": "nodemon app/app.js",
     "dev2": "nodemon app/server.js",
+    "dev3": "nodemon app/serverExpress.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/AndriiVV/goit-node-module2-test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrii Vinnykov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AndriiVV/goit-node-module2-test/issues"
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/AndriiVV/goit-node-module2-test#readme",
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
